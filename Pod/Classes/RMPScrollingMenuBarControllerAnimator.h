@@ -22,6 +22,6 @@
 
 /** Transitioning Object for view transitioning of Scrolling menu bar controller.
  */
-@interface RMPScrollingMenuBarControllerAnimator : NSObject <UIViewControllerAnimatedTransitioning>
+@interface RMPScrollingMenuBarControllerAnimator : NSObject <UIViewControllerAnimatedTransitioning,CAAnimationDelegate>
 
 @end

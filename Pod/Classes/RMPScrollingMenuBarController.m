@@ -265,7 +265,7 @@
                                                                                fromViewController:fromViewController
                                                                                  toViewController:toViewController
                                                                                         direction:direction
-                                                                                         animator:animator
+                                                                                         animator:(RMPScrollingMenuBarControllerAnimator*)animator
                                                                             interactionController:interactionController
                                                                                        completion:completion];
 
